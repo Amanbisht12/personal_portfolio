@@ -86,9 +86,23 @@
     font-size: 30px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 567px) {
     #main-content {
-        margin: -200px 35px;
+        margin: -170px 20px;
+        font-size: 12px; 
+
+    }
+    #main-content h3{
+        font-size: 15px;
+    }
+    #main-content h6 {
+        font-size: 9px;
+        margin-top: -5px;
+    }
+}
+@media screen and (min-width: 568px) and (max-width: 767px) {
+    #main-content {
+        margin: -170px 20px;
         font-size: 12px; 
 
     }
