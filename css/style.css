@@ -50,39 +50,80 @@
     }
 }
 
-.main {
-    /* background-image: url(/img/DSC_9013-2.jpg); */
+/* .main {
+    background-image: url(/img/IMG_1814.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
     overflow: hidden;
+} */
+/* @media only screen and (max-width:576px) {
+    .main {
+        background-image: url(/img/IMG_1814.jpg);
+        background-position: center;
+        filter: blur(2px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+} */
 
+#home{
+    overflow: hidden;
 }
-
 .main .col-lg-6 {
-    margin: 220px 130px;
-
+    margin: -600px 120px;
+    
+}
+#main-content h3{
+    font-size: 45px;
+}
+#main-content h6 {
+    font-size: 30px;
 }
 
 @media only screen and (max-width:576px) {
-    .main .col-lg-6 {
-        margin: 280px 15px;
-        color: white;
+    #main-content {
+        margin: -150px 30px;
+        font-size: 12px; 
+
+    }
+    #main-content h3{
+        font-size: 12px;
+    }
+    #main-content h6 {
+        font-size: 8px;
+        margin-top: -5px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1339px) {
-    .main .col-lg-6 {
-        margin: 200px 30px;
-        color: white;
+    #main-content {
+        margin: -300px 90px;
+        font-size: 12px;
+
+    }
+    #main-content h3{
         font-size: 20px;
+    }
+    #main-content h6 {
+        font-size: 12px;
+        margin-top: -5px;
     }
 }
 @media screen and (min-width: 1440px) {
     .main .col-lg-6 {
-        margin: 220px 130px;
+        margin: -600px 120px;
+    }
+    #main-content h3{
+        font-size: 45px;
+    }
+    #main-content h6 {
+        font-size: 30px;
     }
 }
 
@@ -379,15 +420,20 @@
     width: 50%;
     margin-left: 100px;
 }
-
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .card-skills .progress {
+        width: 50%;
+        margin-left: 40px;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 1339px) {
     .card-skills .progress {
         width: 50%;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 }
 
-.services #btn-Services:after {
+/* .services #btn-Services:after {
     content: '';
     position: relative;
     background-color: red;
@@ -435,7 +481,7 @@
     background-color: rgb(36, 27, 27);
     color: white;
     transition: 0.5s;
-}
+} */
 
 /* map media queries */
 
