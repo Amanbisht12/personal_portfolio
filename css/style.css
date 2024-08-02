@@ -350,6 +350,7 @@
 }
 
 .btn1 {
+    text-decoration: none;
     height: 50px;
     width: 145px;
     outline: none;
@@ -401,7 +402,7 @@
 
 .card-skills .progress {
     width: 50%;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .card-skills {
@@ -438,6 +439,8 @@
         margin-left: 50px;
     }
 }
+
+
 
 /* .services #btn-Services:after {
     content: '';
@@ -511,8 +514,6 @@
     }
 
 }
-
-
 .contact .btn3 {
     background-color: black;
     color: white;
