@@ -11,6 +11,10 @@
     cursor: pointer;
     text-decoration: none;
 }
+.navbar-brand img{
+    height: 45px;
+    width: 40px;
+}
 
 .nav-link {
     color: black;
