@@ -90,11 +90,6 @@
     font-size: 30px;
 }
 
-#main a{
-    text-decoration: none;
-    background-color: black;
-}
-
 @media screen and (min-width: 0px) and (max-width: 567px) {
     #main-content {
         margin: -170px 20px;
