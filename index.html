@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body >
+<body oncontextmenu="return false";>
     <nav class="navbar navbar-expand-lg  text-uppercase ">
         <div class="container ">
             <a class="navbar-brand font-weight-bold" href="index.html"><img class="img-fluid" src="img/logo-no-background.png" alt="Logo"></a>
@@ -229,7 +229,8 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-lg-6 mt-3 col-md-12">
-                    <form action="">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="d3f00cee-1a60-476e-98ef-de6147a45c3b">
                         <div class="form-row">
                             <div class="col-lg-6">
                                 <input type="text" class="form-control bg-light mb-3" placeholder="Name"
